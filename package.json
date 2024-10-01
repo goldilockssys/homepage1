@@ -1,7 +1,7 @@
 {
   "name": "homepage",
   "version": "1.0.0",
-  "homepage": "homepage1-git-main-cocodotwebs-projects.vercel.app",
+  "homepage": "https://goldilockssys.github.io/homepage1/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
