@@ -71,7 +71,7 @@ function App() {
             {/* 이미지 섹션 */}
             <div className="image-section">
               <div className="image-box">
-                <img src={`${process.env.PUBLIC_URL}/images/aboutus1.jpg`} alt="이미지 1" />
+                <img src={`${process.env.PUBLIC_URL}/images/aboutus.jpg`} alt="이미지 1" />
               </div>
             </div>
           </div>
