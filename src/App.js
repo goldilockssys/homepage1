@@ -15,7 +15,7 @@ function App() {
       {/* 헤더 */}
       <header className="header">
         <div className="logo-container">
-        <img src={`${process.env.PUBLIC_URL}/images/logo1.png`} alt="Goldilocks Logo" className="logo" />
+        
         <img src="/images/logo1.png" alt="logo" />
         </div>
         <nav>
@@ -72,7 +72,8 @@ function App() {
             {/* 이미지 섹션 */}
             <div className="image-section">
               <div className="image-box">
-                <img src={`${process.env.PUBLIC_URL}/images/aboutus1.jpg`} alt="이미지 1" />
+                
+                <img src="/images/aboutus1.jpg" alt="이미지 1" />
               </div>
             </div>
           </div>
@@ -125,6 +126,7 @@ function App() {
           <div className="vision-images">
             <div className="image-box">
               <img src={`${process.env.PUBLIC_URL}/images/vision3.png`} alt="이미지 1" />
+                      
             </div>
             <div className="image-box">
               <img src={`${process.env.PUBLIC_URL}/images/vision4.png`} alt="이미지 2" />
@@ -177,10 +179,12 @@ function App() {
           {/* 이미지 섹션 */}
           <div className="mission-images">
             <div className="image-box">
-              <img src={`${process.env.PUBLIC_URL}/images/mission1.png`} alt="Mission 이미지 1" />
+              
+              <img src="/images/mission1.png" alt="Mission 이미지 1" />
             </div>
             <div className="image-box">
-              <img src={`${process.env.PUBLIC_URL}/images/mission2.png`} alt="Mission 이미지 2" />
+              
+              <img src="/images/mission2.png" alt="Mission 이미지 2" />
             </div>
           </div>
         </div>
@@ -220,10 +224,12 @@ function App() {
   {/* History 이미지 */}
   <div className="history-images">
     <div className="history-image-box">
-      <img src={`${process.env.PUBLIC_URL}/images/history1.png`} alt="History Image 1" />
+      
+      <img src="/images/history1.png" alt="History Image 1" />
     </div>
     <div className="history-image-box">
-      <img src={`${process.env.PUBLIC_URL}/images/history2.png`} alt="History Image 2" />
+      
+      <img src="/images/history2.png" alt="History Image 2" />
     </div>
   </div>
 </section>
@@ -238,19 +244,22 @@ function App() {
 
   <div className="service-cards">
     <div className="service-card logistics">
-    <img src={`${process.env.PUBLIC_URL}/images/logistics-icon.png`} alt="Trade Agency" className="service-icon" />
+    
+    <img src="/images/logistics-icon.png" alt="service-icon" />
       <h3>Logistics</h3>
       <p>GOLDILOCKS는 동남아 국경을 중심으로 운송 솔루션을 제공합니다. FTL(Full Truckload) 및 LTL(Less-than-Truckload) 운송 서비스를 통해 고객의 화물을 안전하고 신속하게 처리하며, 효율적인 물류를 관리하고 맞춤형 운송 체계를 지원합니다.</p>
     </div>
 
     <div className="service-card devops">
-    <img src={`${process.env.PUBLIC_URL}/images/devops-icon.png`} alt="Trade Agency" className="service-icon" />
+    
+    <img src="/images/devops-icon.png" alt="service-icon" />
       <h3>DevOps</h3>
       <p>GOLDILOCKS는 IT 개발자들을 통해 고객 업무를 자동화할 수 있는 시스템을 개발하고 있습니다. 삼성SDS와 같은 대형 기업에 도입된 “COCODOT”은 데이터 기반 자동화를 경험할 수 있습니다.</p>
     </div>
 
     <div className="service-card trade-agency">
-    <img src={`${process.env.PUBLIC_URL}/images/trade-icon.png`} alt="Trade Agency" className="service-icon" />
+    
+    <img src="/images/trade-icon.png" alt="service-icon" />
       <h3>Trade Agency</h3>
       <p>GOLDILOCKS는 고객이 글로벌 시장에서 경쟁력을 강화하고 성장할 수 있도록, 맞춤형 무역 및 수출입 솔루션을 제공합니다. 글로벌 네트워크와 전문적 파트너십을 통해 다양한 물류 솔루션을 제공하며, 글로벌 물류 및 무역 전문가들이 함께합니다.</p>
     </div>
