@@ -16,6 +16,7 @@ function App() {
       <header className="header">
         <div className="logo-container">
         <img src={`${process.env.PUBLIC_URL}/images/logo1.png`} alt="Goldilocks Logo" className="logo" />
+        <img src="/images/logo1.png" alt="logo" />
         </div>
         <nav>
           <ul className="menu">
